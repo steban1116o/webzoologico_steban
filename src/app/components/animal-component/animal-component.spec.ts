@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Micomponente } from './micomponente';
+import { AnimalComponent } from './animal-component';
 
-describe('Micomponente', () => {
-  let component: Micomponente;
-  let fixture: ComponentFixture<Micomponente>;
+describe('AnimalComponent', () => {
+  let component: AnimalComponent;
+  let fixture: ComponentFixture<AnimalComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Micomponente],
+      imports: [AnimalComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(Micomponente);
+    fixture = TestBed.createComponent(AnimalComponent);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
